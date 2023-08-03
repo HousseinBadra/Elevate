@@ -1,0 +1,19 @@
+html {
+    font-size: 30px;
+}
+
+div {
+    color: red;
+    text-align: left;
+    font-size: 5em;
+}
+
+/* css font sizes 
+  pixel: smallest screen unit
+  rem: root element font
+  ch: character height
+  100vh = the full height of the screen --viewport height
+  100vw = the full width of the screen --viewport width
+  % = how much of the parent element font size 
+  1em = the font size of the parent
+*/
