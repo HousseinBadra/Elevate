@@ -1,0 +1,38 @@
+div {
+    color: rgb(129, 124, 124) !important;
+}
+
+.first-div {
+    color: blue;
+}
+
+.second-div {
+    color: red;
+}
+
+.second-div-modified {
+ color: aqua;
+}
+
+#second-div{
+  color:blueviolet;
+  background: blue;
+}
+
+.block:nth-child(odd){
+  font-size: 30px;
+}
+
+/* css selector 
+tag selector ex: div
+class selector ex: .first-div 
+id selector ex: #second-div
+:last-child
+:first-child
+:nth-child() / number or even or odd
+
+prority rules: 
+id
+class
+tag
+*/

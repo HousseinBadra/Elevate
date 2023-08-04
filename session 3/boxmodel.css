@@ -1,0 +1,14 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 2px solid black;
+    padding: 40px;
+    margin: 0px 0px 0px 40px;
+    box-sizing: border-box;
+}
+
+/* box model 
+when setting padding whe can either use 4 props or one going clockwise top -> right -> bottom -> left
+40px 40px <==> top bottom = 40px   right left = 40px
+*/
