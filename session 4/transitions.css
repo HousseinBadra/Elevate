@@ -1,0 +1,14 @@
+button {
+    padding: 10em;
+    background: green;
+    transition-property: all;
+    transition-duration: 3s;
+    /* transition-delay: 1s; */
+    transform-origin: center;
+    transition-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+button:hover{
+  background: blue;
+  color: white;
+}
