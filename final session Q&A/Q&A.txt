@@ -1,0 +1,88 @@
+databases
+
+1. NoSQL databases
+ keys/ values pairs
+
+
+ {
+    username: alaa,
+    id: 123,
+    password: password1
+ }
+
+ 2 SQL databases
+
+ tables 
+
+ user tables 
+ 1: alaa
+ 2: houssein
+ 3: samer
+
+ accounts
+
+ username user_id password
+ 1         123   password1
+ 2          234   password2
+
+
+ joints 
+ by joining accounts and user
+
+  username user_id password
+ alaa        123   password1
+ houssein         234   password2
+
+
+backend
+
+url   "https://ai.quotable.io/random"
+
+protocol http, https , domain , endpoint
+
+our api is https://amazon.com/
+
+get users
+
+https://amazon.com/users
+response user[]
+
+https://amazon.com/products
+
+reponse product[]
+
+get
+post
+delete
+put
+
+restiful API
+
+what if we want to get a user profile
+
+https://amazon.com/account?id={userid}
+https://amazon.com/account?id=10
+response user account
+
+?=  query
+
+get or delete request query
+
+put or post request
+
+request body
+https://amazon.com/accounts/create
+{
+    name: samer
+    last_namd: abdo
+}
+
+
+{
+    id: 123
+}
+
+
+
+
+
